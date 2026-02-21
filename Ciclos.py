@@ -1,3 +1,15 @@
+#1 ejercicio
+
+def factorial_recursivo(numero)-> int:
+    if numero == 0 or numero ==1:
+        return 1
+    else:
+        return numero*factorial_recursivo(numero-1)
+print(factorial_recursivo(5))
+
+
+
+
 def factWhile(nu)-> int:
     if nu == 0 or nu == 1:
         return 1
