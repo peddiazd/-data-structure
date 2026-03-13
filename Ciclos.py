@@ -3,24 +3,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def factorial_recursivo(numero)-> int:
     if numero == 0 or numero ==1:
         return 1
